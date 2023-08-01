@@ -1,0 +1,139 @@
+@media (max-width: 900px) {
+	.home-banner__container {
+		width: 100%;
+		height: 875px;
+	}
+
+	.home-banner__content {
+		align-items: center;
+	}
+
+	.home-banner__content-head {
+		color: #1c2c9c;
+		text-align: center;
+		font-family: Raleway, sans-serif;
+		font-size: 32px;
+		font-style: italic;
+		font-weight: 700;
+		line-height: 120%; /* 38.4px */
+		text-transform: uppercase;
+		width: 90%;
+	}
+
+	.home-banner__content-head br {
+		display: initial;
+	}
+
+	.home-banner__btn {
+		width: 200px;
+		height: 46px;
+	}
+	.home-banner__content-par {
+		display: none;
+	}
+	.home-banner__content-par-mob {
+		display: flex !important;
+		flex-direction: column;
+		align-items: center;
+		margin-top: 24px;
+		color: #1c2c9c;
+		text-align: center;
+		font-family: Roboto, sans-serif;
+		font-size: 16px;
+		font-style: normal;
+		font-weight: 400;
+		line-height: 140%; /* 22.4px */
+		width: 90%;
+		margin-bottom: 32px;
+	}
+	.home-banner {
+		background-image: url('/img/bg-mob1.png');
+		background-position: bottom;
+		background-repeat: no-repeat;
+		background-size: contain;
+		padding-bottom: 0;
+	}
+
+	.promo-lots {
+		padding-top: 60px;
+	}
+
+	.promo-lots__container {
+		width: 100%;
+		padding: 10px;
+	}
+
+	.promo-lots__head {
+		justify-content: center;
+		margin-bottom: 32px;
+	}
+
+	.promo-lots__link {
+		display: none;
+	}
+
+	.promo-lots__cards {
+		flex-direction: column;
+	}
+
+	.promo-lots__item {
+		width: 100%;
+		margin-bottom: 10px;
+	}
+
+	.promo-lots__item-desc {
+		margin-top: 24px;
+		width: 100%;
+		margin-left: 10px;
+	}
+
+	.banner-follow {
+		position: relative;
+		height: 950px;
+		padding-top: 60px;
+		padding-bottom: 0;
+		display: flex;
+		flex-direction: column;
+		background-image: url('/img/bg-mob2.png');
+		background-repeat: no-repeat;
+		background-position: 0 300px;
+		background-size: contain;
+	}
+
+	.banner-follow__container {
+		align-items: center;
+		width: 100%;
+	}
+
+	.banner-follow__head {
+		width: 90%;
+		font-size: 32px;
+		text-align: center;
+		margin-bottom: 24px;
+	}
+
+	.banner-follow__par {
+		text-align: center;
+	}
+
+	.banner-advantage {
+		padding-top: 60px;
+	}
+
+	.banner-advantage__container {
+		width: 90%;
+	}
+
+	.banner-advantage__head {
+		margin-bottom: 32px;
+	}
+
+	.banner-advantage__cards {
+		flex-direction: column;
+	}
+
+	.banner-advantage__card-item {
+		width: 100%;
+		margin: 0 20px 16px 20px;
+	}
+}
